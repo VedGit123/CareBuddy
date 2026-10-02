@@ -532,10 +532,15 @@ body {
     
     .navbar {
         padding: 15px 0;
+        position: relative;
     }
     
     .logo-svg {
         height: 50px;
+    }
+    
+    .navbar .btn {
+        display: none;
     }
     
     .nav-menu {
@@ -553,6 +558,11 @@ body {
     
     .nav-menu.active {
         left: 0;
+    }
+    
+    .nav-menu.active .btn {
+        display: inline-block;
+        margin-top: 20px;
     }
     
     .hamburger {
